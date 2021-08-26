@@ -28,11 +28,13 @@ public class OOPTest {
         driver.driver(new BaoMaCar());
 
 
-        EqualExample equalExample = new EqualExample(1,1,1);
-        EqualExample equalExample2 = new EqualExample(1,1,1);
+        EqualExample equalExample = new EqualExample(1, 1, 1);
+        EqualExample equalExample2 = new EqualExample(1, 1, 1);
         HashSet<EqualExample> set = new HashSet<>();
         set.add(equalExample);
         set.add(equalExample2);
         System.out.println(set.size());
+        System.out.println(equalExample.equals(equalExample2));
+        System.out.println(equalExample == equalExample2);
     }
 }
