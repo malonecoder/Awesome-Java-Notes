@@ -27,7 +27,7 @@ public class OOPTest {
         driver.driver(new BENCHICar());
         driver.driver(new BaoMaCar());
 
-
+        //equal和hashcode的使用
         EqualExample equalExample = new EqualExample(1, 1, 1);
         EqualExample equalExample2 = new EqualExample(1, 1, 1);
         HashSet<EqualExample> set = new HashSet<>();
